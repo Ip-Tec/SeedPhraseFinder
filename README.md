@@ -17,6 +17,7 @@ Seed Phrase Finder is a Python-based desktop application designed to assist user
 - `bip_utils`
 
 Install dependencies using:
+
 ```bash
 pip install mnemonic bip-utils
 ```
@@ -80,7 +81,7 @@ python sh.py --partial "abandon abandon ? ? ? abandon abandon abandon abandon ab
 
 ### Output
 
-```
+```text
 Possible Seed Phrase: abandon abandon ability able abort abandon abandon abandon abandon abandon abandon about
 BIP44: 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
 BIP49: 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy
@@ -91,7 +92,6 @@ BIP84: bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwfkp7q
 ## License
 
 This tool is open-source and available under the MIT license.
-
 
 ### Key Updates
 

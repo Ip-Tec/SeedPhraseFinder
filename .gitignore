@@ -1,6 +1,10 @@
+SeedPhraseGenerator/
+find.py
 build/
 dist/
 venv/
 
+*.csv
+.env
+
 seed_combinations.csv
-SeedPhraseGenerator/
