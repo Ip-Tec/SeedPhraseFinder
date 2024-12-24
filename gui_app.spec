@@ -1,12 +1,12 @@
 # -*- mode: python ; coding: utf-8 -*-
-from PyInstaller.utils.hooks import collect_data_files
+
 
 a = Analysis(
     ['gui_app.py'],
     pathex=[],
     binaries=[],
-    datas=collect_data_files('bip_utils'),
-    hiddenimports=['bip_utils', 'mnemonic'],
+    datas=[],
+    hiddenimports=[],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
